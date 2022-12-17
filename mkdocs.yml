@@ -1,9 +1,9 @@
-site_name: Euphonium
-site_description: Documentation (Wiki) for Euphonium
-site_url: https://euphonium.github.io/docs/
-repo_name: 'feelfreelinux/euphonium'
-repo_url: 'https://github.com/feelfreelinux/euphonium'
-edit_uri: 'https://github.com/feelfreelinux/docs/blob/master/docs/'
+site_name: µVox docs
+site_description: Hardware & Software Wiki for the µVox open-source amplifier
+site_url: https://docs.muvox.io
+repo_name: 'muvox-io/docs.muvox.io'
+repo_url: 'https://github.com/muvox-io/docs.muvox.io'
+edit_uri: 'https://github.com/muvox-io/docs.muvox.io/tree/master/docs'
 docs_dir: docs
 extra_css:
   - stylesheets/extra.css
@@ -18,7 +18,7 @@ theme:
   logo: 'images/euph.svg'
 #  favicon: _media/favicon.ico
   palette:
-    - scheme: euphonium
+    - scheme: muvox
       accent: indigo
 
   features:
@@ -59,21 +59,11 @@ markdown_extensions:
 nav:
   - Home:
       - 'index.md'
-      - Status: status.md
-      - Getting Started: getting-started.md
-      - Plugins: plugins.md
-      - Technical documentation:
-        - Architecture: technical/architecture.md
-        - Setting up development environment: technical/dev-environment.md
-        - Adding support to new DAC: technical/adding-new-dac.md
-        - Writing your own plugin: technical/adding-new-plugin.md
-      - API Documentation:
-        - Scripting Language: plugins/scripting-language.md
-        - HTTP API:
-            - Euphonium REST API: http/index.md
-            - Core: http/main.md
-            - Plugin - DevTools: http/devtools.md
-            - Plugin - WebRadio: http/webradio.md
-            - Plugin - OTA: http/ota.md
-        - C++ Documentation: plugins/cpp.md
-      - Hardware: hardware.md
+  - Hardware:
+      - 'hardware/index.md'
+  - Software:
+      - 'software/index.md'
+  - For Developers:
+      - 'software/index.md'
+  - Get Help:
+      - 'help/index.md'
