@@ -64,6 +64,7 @@ nav:
   - Software:
       - 'software/index.md'
   - For Developers:
-      - 'software/index.md'
+      - 'for-developers/index.md'
+      - Development environment: 'for-developers/dev-environment.md'
   - Get Help:
       - 'help/index.md'
