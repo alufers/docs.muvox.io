@@ -16,7 +16,7 @@
           default = pkgs.stdenv.mkDerivation {
             
             pname = "docs-muvox-io";
-            version = "0.1.0";
+            version = "0.1.1";
             src = ./.;
             buildInputs = [ pkgs.mkdocs pkgs.python310Packages.mkdocs-material ];
             buildPhase = ''
